@@ -380,14 +380,52 @@
                     </div>
             </div>
         </footer>
-        <div class="backdrop is-hidden" data-modal>
+        <div class="backdrop" data-modal>
             <div class="modal" >
                 <button type="button" class="button-close" data-modal-close>
                     <svg class="close-button-in" width="18" height="18">
                         <use href="./images/icon/icons.svg#icon-close"></use>
                     </svg>
                 </button>
+                <p class="modal-title">Оставьте свои данные, мы вам перезвоним</p>
+                <div class="modal-form">
+                    <form class="modal-list">
+                        <label class="madal-item-name" for="name">Имя</label>
+                        <div class="modal-position">
+                            <input class="modal-item" type="text" id="name" name="name">
+                            <svg class="modal-icon" width="12" height="12">
+                                    <use href="./images/icon/icons.svg#icon-modal-human"></use>
+                                </svg>
+                        </div>
+                        <label class="madal-item-name" for="tel">Телефон</label>
+                        <div class="modal-position">
+                            <input class="modal-item" type="tel" id="tel" name="tel">
+                            <svg class="modal-icon" width="13" height="13">
+                                <use href="./images/icon/icons.svg#icon-modal-tel"></use>
+                            </svg>
+                        </div>
+                        <label class="madal-item-name" for="mail">Почта</label>
+                        <div class="modal-position">
+                            <input class="modal-item" type="mail" id="mail" name="mail">
+                            <svg class="modal-icon" width="15" height="18">
+                                <use href="./images/icon/icons.svg#icon-modal-mail"></use>
+                            </svg>
+                        </div>
+                        <label class="madal-item-name" for="comment">Комментарий</label>
+                        <textarea class="modal-item comment" name="comment" id="comment" placeholder="Введите текст"></textarea>
+                        
+                        <div class="checkbox-position">
+                            <input type="checkbox" id="checkbox" type="checkbox">
+                            <label class="checkbox-text" for="checkbox">Соглашаюсь с рассылкой и принимаю <a class="link-modal" href=""> Условия договора</a></label>
+                        </div>
+                        <div class="button-position">
+                            <button class="buttom-submit" type="submit">Отправить</button>
+                        </div>
+                    </form>
+                </div>
+                
             </div>
+            
         </div>
         <script src="./js/modal.js"></script>
 </body>
