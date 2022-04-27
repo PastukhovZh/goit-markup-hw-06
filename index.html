@@ -345,42 +345,54 @@
                         </ul>
                     </address>
                 </div>
-                    <div class="footer-social">
-                        <h3 class="footer-social-title">присоединяйтесь</h3>
-                        <ul class="footer-social-list">
-                            <li class="footer-social-item">
-                                <a href="" class="footer-social-link">
-                                    <svg class="footer-social-icon" width="20" height="20">
-                                        <use href="./images/icon/icons.svg#icon-instagram"></use>
-                                    </svg>
-                                </a>
-                            </li>
-                            <li class="footer-social-item">
-                                <a href="" class="footer-social-link">
-                                    <svg class="footer-social-icon" width="20" height="20">
-                                        <use href="./images/icon/icons.svg#icon-twitter"></use>
-                                    </svg>
-                                </a>
-                            </li>
-                            <li class="footer-social-item">
-                                <a href="" class="footer-social-link">
-                                    <svg class="footer-social-icon" width="20" height="20">
-                                        <use href="./images/icon/icons.svg#icon-facebook"></use>
-                                    </svg>
-                                </a>
-                            </li>
-                            <li class="footer-social-item">
-                                <a href="" class="footer-social-link">
-                                    <svg class="footer-social-icon" width="20" height="20">
-                                        <use href="./images/icon/icons.svg#icon-linkedin"></use>
-                                    </svg>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
+                <div class="footer-social">
+                    <h3 class="footer-social-title">присоединяйтесь</h3>
+                    <ul class="footer-social-list">
+                        <li class="footer-social-item">
+                            <a href="" class="footer-social-link">
+                                <svg class="footer-social-icon" width="20" height="20">
+                                    <use href="./images/icon/icons.svg#icon-instagram"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="footer-social-item">
+                            <a href="" class="footer-social-link">
+                                <svg class="footer-social-icon" width="20" height="20">
+                                    <use href="./images/icon/icons.svg#icon-twitter"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="footer-social-item">
+                            <a href="" class="footer-social-link">
+                                <svg class="footer-social-icon" width="20" height="20">
+                                    <use href="./images/icon/icons.svg#icon-facebook"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="footer-social-item">
+                            <a href="" class="footer-social-link">
+                                <svg class="footer-social-icon" width="20" height="20">
+                                    <use href="./images/icon/icons.svg#icon-linkedin"></use>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                    <form class="social-form">
+                        <label class="social-list" for="subscribe">Подпишитесь на рассылку</label>
+                        <div class="btn-position">
+                            <input class="social-mail" type="text" id="subscribe" name="mail" placeholder="E-mail">
+                            <button class="social-subscribe-btn" type="button">Подпишись
+                                <svg class="subscribe-icon" width="24" height="24">
+                                    <use href="./images/icon/icons.svg#icon-telegram"></use>
+                                </svg>
+                            </button>
+                        </div>
+                    </form>    
             </div>
         </footer>
-        <div class="backdrop" data-modal>
+        <!---------- Modal ---------->
+        <div class="backdrop is-hidden" data-modal>
             <div class="modal" >
                 <button type="button" class="button-close" data-modal-close>
                     <svg class="close-button-in" width="18" height="18">
@@ -427,6 +439,7 @@
             </div>
             
         </div>
+        <!---------- Script ---------->
         <script src="./js/modal.js"></script>
 </body>
 
