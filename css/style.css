@@ -53,9 +53,9 @@ address {
   --third-basic-color: #ffffff;
 }
 
-/* input, textarea {
+input, textarea {
   outline: none;
-} */
+}
 
 .container {
   width: 1200px;
@@ -915,6 +915,19 @@ color: var(--basic-color);
   padding-left: 42px;
   background-color: transparent;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-item:hover,
+.modal-item:focus {
+  border-color:var(--second-basic-color) ;
+}
+
+.modal-item:focus ~ .modal-icon {
+fill: var(--second-basic-color);
+}
+
+.modal-item:hover~.modal-icon{
+  fill: var(--second-basic-color);
 }
 
 .comment{
